@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grandma's</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/bf0441e078.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img id="logoImg" src="assets/logo.svg" alt="logo" />
+      <ul id="navLinks">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Store">Store</a></li>
+      </ul>
+      <span class="menuIcon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <div id="rightNav">
+        <img id="phone-img" src="assets/phone-solid.svg" alt="phone" />
+        <p id="storeNumber">+ 123 456 789</p>
+        <div id="shopping-cart">
+          <button id="displayCartButton">
+            <img
+              src="assets/shopping-cart-solid.svg"
+              alt="shopping-cart-logo"
+            />
+            <pre id="cartDetails">  0 Items - $0.0</pre>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div>
+      <ul id="droppedNavLinks">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Store">Store</a></li>
+      </ul>
+    </div>
+    <main>
+      <div id="cartSection">
+        <div class="itemsDiv"></div>
+      </div>
+      <div id="bannerImg">
+        <div id="bannerText">
+          <p>Welcome To <span class="bigWord">Grandma's</span></p>
+          <button class="styledBtn">EXPLORE</button>
+        </div>
+      </div>
+      <div style="background-color: white">
+        <div id="aboutUs" class="about-us">
+          <section id="aboutUsText">
+            <p>About <span class="bigWord">Us</span></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              aliquam voluptas beatae vitae expedita consectetur nesciunt quia
+              deserunt asperiores facere fuga dicta fugiat corrupti et omnis
+              porro at dolorum! Ad!
+            </p>
+            <button class="styledBtn">EXPLORE</button>
+          </section>
+          <section id="bgImg">
+            <div id="container">
+              <img src="assets/sweets-1.jpeg" alt="sweets-aboutUs-img" />
+              <div id="movingBorder"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="ourStore">
+        <p>Our <span class="bigWord">Store</span></p>
+        <div id="searchButtons">
+          <button class="styledBtn" id="allItems">ALL</button>
+          <button class="styledBtn" id="Cake">CAKES</button>
+          <button class="styledBtn" id="Cupcake">CUPCAKES</button>
+          <button class="styledBtn" id="Sweet">SWEETS</button>
+          <button class="styledBtn" id="Dougnut">DOUGHNUTS</button>
+        </div>
+        <div class="searchBar">
+          <input id="search" type="search" placeholder=" item...." />
+          <span> <img src="assets/search-solid.svg" alt="searchIcon" /> </span>
+        </div>
+        <div id="cards"></div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
