@@ -177,7 +177,7 @@ main {
 #movingBorder {
   height: 98.5%;
   left: -1.5rem;
-  outline: 0.5rem solid black;
+  outline: 0.5rem solid rgb(249, 228, 148);
   position: absolute;
   top: -1.5rem;
   transition: all 1s ease-in-out;
